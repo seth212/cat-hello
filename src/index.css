@@ -1,0 +1,35 @@
+h1, h2 {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cat-image-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img{
+  border-radius: 10px;
+  border: none;
+  width: 600px;
+  height: 645px;
+  object-fit: cover;
+}
+
+.button-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  background-color: orange;
+  cursor: pointer;
+}
+
