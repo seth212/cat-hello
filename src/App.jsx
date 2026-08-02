@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Header from "./components/Header";
+import CatImage from "./components/CatImage";
 
 function App() {
   const [cat, setCat] = useState();
@@ -22,9 +23,8 @@ function App() {
       <div className="button-div">
         <button onClick={setCat}>Next cat please</button>
       </div>
-      <div className="cat-image-div ">
-        <img src={cat} alt="" />
-      </div>
+      <CatImage cat ={cat}/>
+
     </>
   );
 }

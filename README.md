@@ -1,5 +1,7 @@
 PROJECT NAME: Cat-Hello
 
+Live Link: 
+
 DESCRIPTION: A fun application that renders images of cats saying 'hello'. There's a 'next cat' button that renders the next cat that also wants to say 'hello'.
 
 
@@ -8,7 +10,7 @@ TECHNOLOGIES USED:
 - Vite
 - React
 - JavaScript
-- Catass API
+- Cataas API
 
 
 Created by: Seth Darkwah
