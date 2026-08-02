@@ -1,25 +1,20 @@
 import { useEffect, useState } from "react";
 import Header from "./components/Header";
 
-
-
-function App () {
-
-  const [cat, setCat] = useState()
+function App() {
+  const [cat, setCat] = useState();
 
   async function getCats() {
     const response = await fetch("https://cataas.com/cat/cute/says/hello");
 
+    const newCat = response.url;
 
-    const newCat = response.url
-    console.log(newCat)
-
-   setCat(newCat)
+    setCat(newCat);
   }
-  
+
   useEffect(() => {
-    getCats()
-  },[cat])
+    getCats();
+  }, [cat]);
 
   return (
     <>
