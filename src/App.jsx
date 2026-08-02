@@ -21,7 +21,7 @@ function App() {
     <>
       <Header />
       <div className="button-div">
-        <button onClick={setCat}>Next cat please</button>
+        <button onClick={setCat}>next cat please</button>
       </div>
       <CatImage cat ={cat}/>
 
